@@ -1,4 +1,5 @@
 import React, { Fragment } from "react";
+import "./index.css";
 import { makeStyles } from "@material-ui/core/styles";
 import {
   Grid,
@@ -10,7 +11,7 @@ import {
   List,
   ListItemText,
 } from "@material-ui/core";
-
+import DashboardIcon from '@material-ui/icons/Dashboard';
 import {
   MoveToInbox as InboxIcon,
   Home as HomeIcon,
@@ -51,6 +52,7 @@ export default function PermanentDrawerLeft() {
   return (
     <Grid className={classes.root} lg={1}>
       <CssBaseline />
+      
       <Drawer
         className={classes.drawer}
         variant="permanent"
@@ -59,8 +61,11 @@ export default function PermanentDrawerLeft() {
         }}
         anchor="left"
       >
-        <div className={classes.toolbar} />
         
+        <div className={classes.toolbar} />
+        <div className="alo" style={{ fontSize: "39px ",  fontFamily: "Roboto", marginBottom:"44px", color:"#410096" }}> 
+        <DashboardIcon fontSize="default"/>TO-DOER
+        </div>
         <List>
           {["Home","About", "Contact Us"].map((text, index) => (
             <NavLink style={{ textDecoration: "none", }}
