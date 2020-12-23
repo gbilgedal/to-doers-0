@@ -67,7 +67,7 @@ export default function ContactContainer() {
             <img
               alt="gunsu"
               style={ppStyle}
-              src="https://media-exp1.licdn.com/dms/image/C5603AQEx_eMuPKSJxA/profile-displayphoto-shrink_200_200/0?e=1597881600&v=beta&t=szUR-qldLlIOubS763CSOzk-qhnznZvWnUZIsMEyMEA"
+              src="https://avatars0.githubusercontent.com/u/23294855?s=460&u=c13e9b62ee31e8cee63b3d7de7381c6118894a4a&v=4"
             />
             <a href="https://github.com/gbilgedal">
               <img
